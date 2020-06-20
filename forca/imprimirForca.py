@@ -1,0 +1,68 @@
+def forca(x=0):
+  ''''
+    Essa função imprimi o desenho da forca, de acordo com a quantidade de erros.
+  '''
+  if x==0:
+    print("------------")
+    print("|          |")
+    print("|          ")
+    print("|          ")
+    print("|          ")
+    print("|          ")
+    print("|          ")
+    print("|")
+  elif x==1:
+    print("------------")
+    print("|          |")
+    print("|          0")
+    print("|          ")
+    print("|          ")
+    print("|          ")
+    print("|          ")
+    print("|")
+  elif x==2:
+    print("------------")
+    print("|          |")
+    print("|          0")
+    print("|          |")
+    print("|          ")
+    print("|          ")
+    print("|          ")
+    print("|")
+  elif x==3:
+    print("------------")
+    print("|          |")
+    print("|          0")
+    print("|         -|")
+    print("|          ")
+    print("|          ")
+    print("|          ")
+    print("|")
+  elif x==4:
+    print("------------    ")
+    print("|          |    ")
+    print("|          0    ")
+    print("|         -|-   ")
+    print("|               ")
+    print("|               ")
+    print("|               ")
+    print("|")
+  elif x==5:
+    print("------------    ")
+    print("|          |    ")
+    print("|          0    ")
+    print("|         -|-   ")
+    print("|         /      ")
+    print("|               ")
+    print("|               ")
+    print("|")
+
+  elif x==6:
+    print("------------    ")
+    print("|          |    ")
+    print("|          0    ")
+    print("|         -|-   ")
+    print("|         / \   ")
+    print("|               ")
+    print("|    Lamento! Perdeu! ")
+    print("|")
